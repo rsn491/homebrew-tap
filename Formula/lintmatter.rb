@@ -1,25 +1,25 @@
 class Lintmatter < Formula
   desc "A linter for agentic context"
   homepage "https://github.com/rsn491/lintmatter"
-  version "0.2.0"
+  version "0.2.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/rsn491/lintmatter/releases/download/v0.2.0/lintmatter-aarch64-apple-darwin.tar.xz"
-      sha256 "e6f178210fd4899f5875049d53680cedee15708888abe8bb12e870f141df486e"
+      url "https://github.com/rsn491/lintmatter/releases/download/v0.2.1/lintmatter-aarch64-apple-darwin.tar.xz"
+      sha256 "df3db200e3df51f6d333f0a5249876e32f8e35c74fdc612c60693a26cc6d6daa"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/rsn491/lintmatter/releases/download/v0.2.0/lintmatter-x86_64-apple-darwin.tar.xz"
-      sha256 "9a00338ac5c4af48008db6de5f612b721bb3cd56f350fc032049fa1062cd767e"
+      url "https://github.com/rsn491/lintmatter/releases/download/v0.2.1/lintmatter-x86_64-apple-darwin.tar.xz"
+      sha256 "3bbdf9cd264daa8d01fc6fe3a0862c04193b74ad63152cddac392713c771b31a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/rsn491/lintmatter/releases/download/v0.2.0/lintmatter-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "cb28ce80434c875b677eac576e60f1db3b0e349af1c3e6318be78f598965a3b6"
+      url "https://github.com/rsn491/lintmatter/releases/download/v0.2.1/lintmatter-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "9cdbfc7faa1a6d81f43330205c338f8579d85d4f9884c928f2a93bdd37da3d44"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/rsn491/lintmatter/releases/download/v0.2.0/lintmatter-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "f3d972976eb1ff3498bee17722953d17c8cd54aa5a6ccb3278bd80ed98b8d8d7"
+      url "https://github.com/rsn491/lintmatter/releases/download/v0.2.1/lintmatter-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "2d4f80d788809107e3e356d5144ec6b2799d9ebcbdbcfc47a7f78766bda81293"
     end
   end
   license "MIT"
